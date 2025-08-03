@@ -4,15 +4,6 @@ A modern, accessible user profile form with interactive elements and real-time v
 
 🔗 **Project Challenge**: [roadmap.sh/projects/accessible-form-ui](https://roadmap.sh/projects/accessible-form-ui)
 
-## ✨ Features
-
-- **Fully Accessible**: WCAG 2.1 compliant with proper ARIA attributes
-- **Password Toggle**: Show/hide password functionality with keyboard support
-- **Form Validation**: Real-time validation with error states and feedback
-- **Progress Tracking**: Visual progress indicator with completion checklist
-- **Responsive Design**: Works seamlessly across desktop and mobile devices
-- **Screen Reader Friendly**: Comprehensive support for assistive technologies
-
 ## 🎯 Accessibility Features
 
 - ✅ Proper semantic HTML structure
@@ -50,36 +41,3 @@ Accessible-Form-UI/
 ├── style.css           # Styles and accessibility enhancements
 └── README.md           # Project documentation
 ```
-
-## 🎨 Design
-
-The form features a clean, modern design with:
-- Two-column layout (form + progress tracker)
-- Rounded container with subtle shadows
-- Error states with visual and textual feedback
-- Interactive password visibility toggle
-- Progress circle showing completion percentage
-- Checklist with completed/pending task indicators
-
-## 🧪 Testing Accessibility
-
-Test the form with:
-- **Keyboard navigation**: Tab through all interactive elements
-- **Screen readers**: NVDA, JAWS, or VoiceOver
-- **High contrast mode**: Windows High Contrast or browser extensions
-- **Color blindness**: Ensure information isn't conveyed by color alone
-
-## 📱 Browser Support
-
-- ✅ Chrome 80+
-- ✅ Firefox 75+
-- ✅ Safari 13+
-- ✅ Edge 80+
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
