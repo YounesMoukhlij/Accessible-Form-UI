@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Changelog Component</title>
+        <meta name="description" content="A beautiful and responsive changelog component">
+        <meta name="author" content="Younes Moukhlij">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <form action="submit">
+                <div class="input-grp">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" placeholder="What should we call you ?"
+                    required
+                    aria-required="true"
+                    >
+                </div>
+                <div class="input-grp">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter your email" required
+                    aria-required="true"
+                    >
+                </div>
+                <div class="input-grp">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="xxxxxx"
+                    aria-required="true"
+                    required
+                    >
+                    <button type="button" class="toggle-password" aria-label="Show password">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="input-grp">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" placeholder="xxxxxx"
+                    aria-required="true"
+                    required>
+                    <button type="button" class="toggle-password" aria-label="Show password">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+                        </svg>
+                    </button>
+                </div>
+
+                    <button type="submit" class="submit">
+                        <span>Update Profile</span>
+                    </button>
+                </form>
+
+
+
+            <div class="profile-section">
+            <div class="progress-circle">
+                <svg width="200" height="200" viewBox="0 0 120 120">
+                    <circle cx="60" cy="60" r="50" fill="none" stroke="#e0e0e0" stroke-width="8"/>
+                    <circle cx="60" cy="60" r="50" fill="none" stroke="#333" stroke-width="8"
+                            stroke-dasharray="314" stroke-dashoffset="110" stroke-linecap="round"
+                            transform="rotate(-90 60 60)"/>
+                </svg>
+                <div class="progress-text">65%</div>
+            </div>
+
+            <h3>Profile Completeness</h3>
+
+            <div class="checklist">
+                <div class="checklist-item completed">
+                    <span class="checkmark">✓</span>
+                    <span>Create Account</span>
+                </div>
+                <div class="checklist-item completed">
+                    <span class="checkmark">✓</span>
+                    <span>Update Roadmap Progress</span>
+                </div>
+                <div class="checklist-item completed">
+                    <span class="checkmark">✓</span>
+                    <span>Setup Public Profile</span>
+                </div>
+                <div class="checklist-item pending">
+                    <span class="checkmark"></span>
+                    <span>Complete your first project</span>
+                </div>
+                <div class="checklist-item pending">
+                    <span class="checkmark"></span>
+                    <span>Invite your Friends</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
